@@ -5,13 +5,13 @@ import android.text.Editable
 import android.text.TextWatcher
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import kotlinx.android.synthetic.main.pass_change.*
+import kotlinx.android.synthetic.main.passchangeactivity.*
 
-class Pass_change : AppCompatActivity() {
+class PassChangeActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.pass_change)
+        setContentView(R.layout.passchangeactivity)
 
         back.setOnClickListener {
             super.onBackPressed()
