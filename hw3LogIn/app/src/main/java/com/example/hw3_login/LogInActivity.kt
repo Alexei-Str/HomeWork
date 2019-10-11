@@ -7,16 +7,16 @@ import android.text.Editable
 import android.text.TextWatcher
 import android.view.View
 import android.widget.Toast
-import kotlinx.android.synthetic.main.log_in.*
+import kotlinx.android.synthetic.main.loginactivity.*
 
-class Log_in : AppCompatActivity() {
+class LogInActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.log_in)
+        setContentView(R.layout.loginactivity)
 
         change.setOnClickListener {
-            val intent = Intent(this, Pass_change::class.java)
+            val intent = Intent(this, PassChangeActivity::class.java)
             startActivity(intent)
         }
 
