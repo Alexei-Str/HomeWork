@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".Log_in">
+    tools:context=".LogInActivity">
 
 <!-- Это написанный с 0 layout, не связанный с основным проектом.
-     Из-за моей ошибки проект был испорчен, а предыдущий log_in.xml утерян.
+     Из-за моей ошибки проект был испорчен, а предыдущий loginactivity.xml утерян.
      Это восстановленная по памяти копия-->
 
     <com.google.android.material.textfield.TextInputLayout
@@ -67,8 +67,8 @@
 
     <Button
         android:id="@+id/login"
-        android:layout_width="121dp"
-        android:layout_height="61dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:text="LOG IN"
         android:textSize="20dp"
         android:background="@android:color/holo_orange_dark"
@@ -81,8 +81,8 @@
 
     <Button
         android:id="@+id/change"
-        android:layout_width="106dp"
-        android:layout_height="64dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:text="CHANGE PASSWORD"
         android:background="@android:color/darker_gray"
         android:elevation="1dp"
